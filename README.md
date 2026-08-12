@@ -1,17 +1,17 @@
 <!--
-  Theme-adaptive profile README (light + dark).
-  Contribution graphics are generated from GitHub's real contribution calendar.
-  Note: GitHub only renders profile READMEs from a PUBLIC username/username repo.
+  Theme-adaptive profile README.
+  Light/dark assets switch automatically with the visitor's GitHub theme (prefers-color-scheme).
+  No page refresh required.
 -->
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-    <img src="./assets/header-light.svg" alt="Solve. Build. Ship. — Prabhu, Backend Developer" width="100%" />
+    <img src="./assets/header-light.svg" alt="Solve. Build. Ship. — Prabhu" width="100%" />
   </picture>
 </div>
 
-<br />
+<br/>
 
 <div align="center">
   <picture>
@@ -20,11 +20,34 @@
   </picture>
 </div>
 
-## About
+<br/>
 
-I design and ship backend systems for products that have to work in production — APIs, data paths, cloud, and the full-stack pieces that close the loop.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" />
+    <img src="./assets/about-light.svg" alt="About" width="100%" />
+  </picture>
+</div>
 
-Fewer moving parts. Clear tradeoffs. Software that survives contact with users.
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
+    <img src="./assets/stack-light.svg" alt="Engineering stack" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/work-dark.svg" />
+    <img src="./assets/work-light.svg" alt="Work focus" width="100%" />
+  </picture>
+</div>
+
+<br/>
 
 <div align="center">
   <picture>
@@ -33,76 +56,20 @@ Fewer moving parts. Clear tradeoffs. Software that survives contact with users.
   </picture>
 </div>
 
-## Stack
-
-| | |
-| :--- | :--- |
-| **Backend** | Python · Flask · FastAPI · Node.js · Java |
-| **Data** | PostgreSQL · DynamoDB · Redis · S3 |
-| **Infra** | AWS · Docker · Kubernetes · Argo CD · Terraform |
-| **Frontend** | TypeScript · React · Next.js |
-| **Ops** | Datadog · Sentry · GitHub Actions |
+<br/>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
-    <img src="./assets/divider-light.svg" alt="" width="420" />
-  </picture>
-</div>
-
-## Work
-
-- Service platforms and APIs
-- Event-driven AWS workloads
-- Product surfaces in Next.js when ownership spans the stack
-- Deploy, GitOps, and observability
-
-Most of this lives in private product repositories. Public work will be pinned here when it ships.
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
-    <img src="./assets/divider-light.svg" alt="" width="420" />
-  </picture>
-</div>
-
-## Contributions
-
-Same calendar as the graph on this GitHub profile — including private contributions.
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg" />
-    <img src="./assets/contributions-light.svg" alt="Real GitHub contribution graph" width="100%" />
-  </picture>
-</div>
-
-<br />
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
-    <img src="./assets/stats-light.svg" alt="Real contribution statistics" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+    <img src="./assets/footer-light.svg" alt="Clarity over ceremony" width="100%" />
   </picture>
 </div>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
-    <img src="./assets/divider-light.svg" alt="" width="420" />
-  </picture>
-</div>
-
-<div align="center">
-
-### Clarity over ceremony.
-
-Ship the hard part.
-
-<sub>
-  <a href="https://github.com/prabhuatbhanzu">@prabhuatbhanzu</a>
-  · <a href="https://bhanzu.com">bhanzu.com</a>
-  · Bengaluru
-</sub>
-
+  <br/>
+  <sub>
+    <a href="https://bhanzu.com">bhanzu.com</a>
+    · <a href="https://github.com/Exploring-Infinities">Exploring Infinities</a>
+    · <a href="https://github.com/prabhuatbhanzu">@prabhuatbhanzu</a>
+  </sub>
 </div>
