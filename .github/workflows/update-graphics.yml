@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/generate_profile_graphics.py"
-      - ".github/workflows/update-graphics.yml"
 
 permissions:
   contents: write
@@ -23,13 +18,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install GitHub CLI
+      - name: Require user PAT
+        env:
+          PROFILE_GRAPHICS_TOKEN: ${{ secrets.PROFILE_GRAPHICS_TOKEN }}
         run: |
-          (type -p gh >/dev/null) || (sudo apt-get update && sudo apt-get install -y gh)
+          if [ -z "$PROFILE_GRAPHICS_TOKEN" ]; then
+            echo "::error::Add repo secret PROFILE_GRAPHICS_TOKEN (classic PAT with read:user). GITHUB_TOKEN cannot see private contribution counts."
+            exit 1
+          fi
+
+      - name: Install GitHub CLI
+        run: (type -p gh >/dev/null) || (sudo apt-get update && sudo apt-get install -y gh)
 
       - name: Generate real contribution graphics
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PROFILE_GRAPHICS_TOKEN }}
           GITHUB_LOGIN: ${{ github.repository_owner }}
         run: python3 scripts/generate_profile_graphics.py
 

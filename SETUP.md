@@ -1,41 +1,23 @@
-# Publish this profile
+# Profile graphics
 
-GitHub shows this README on https://github.com/prabhuatbhanzu when:
+Contribution SVGs are generated from GitHub's real contribution calendar (same source as your profile graph).
 
-1. This repository is named exactly `prabhuatbhanzu`
-2. It is **public**
-3. `README.md` is on the default branch (`main`)
-
-## One-time push
+## Refresh locally
 
 ```bash
 cd ~/prabhuatbhanzu
-git init
-git add .
-git commit -m "Add premium GitHub profile README"
-gh auth login   # if needed
-gh repo create prabhuatbhanzu --public --source=. --remote=origin --push
+gh auth login   # user token required (private contrib counts)
+python3 scripts/generate_profile_graphics.py
+git add assets && git commit -m "chore: refresh contribution graphics" && git push
 ```
 
-Or create the empty public repo on GitHub first, then:
+## Automated daily refresh
 
-```bash
-git remote add origin git@github.com:prabhuatbhanzu/prabhuatbhanzu.git
-git branch -M main
-git push -u origin main
-```
+Create a **classic PAT** with at least `read:user` (user identity used for the contribution calendar), then:
 
-## Optional profile settings
+Repo → Settings → Secrets → Actions → New secret:
 
-- Set a short bio, e.g. `Solve. Build. Ship. · Backend & product engineering`
-- Pin repos once public projects exist
-- Stats widgets already use `prabhuatbhanzu` — no secrets required
+- Name: `PROFILE_GRAPHICS_TOKEN`
+- Value: the PAT
 
-## Editing later
-
-| Section | File / location |
-|---|---|
-| Hero / terminal look | `assets/*.svg` |
-| Copy & stack | `README.md` |
-| Featured repos | Uncomment the pin cards block in `README.md` |
-| Currently building | `## Currently` in `README.md` |
+`GITHUB_TOKEN` is not enough — it only sees public contributions (~8), not your full profile total (~359).
