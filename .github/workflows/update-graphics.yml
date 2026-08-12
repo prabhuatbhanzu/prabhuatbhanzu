@@ -1,0 +1,40 @@
+name: update-contribution-graphics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_profile_graphics.py"
+      - ".github/workflows/update-graphics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install GitHub CLI
+        run: |
+          (type -p gh >/dev/null) || (sudo apt-get update && sudo apt-get install -y gh)
+
+      - name: Generate real contribution graphics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/generate_profile_graphics.py
+
+      - name: Commit updated graphics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh real contribution graphics"
+          file_pattern: assets/*.svg
