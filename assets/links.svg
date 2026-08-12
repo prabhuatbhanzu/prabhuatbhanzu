@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="88" viewBox="0 0 920 88" role="img" aria-label="Profile links">
+  <rect width="920" height="88" rx="18" fill="#070F1C" stroke="#1E293B"/>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14">
+    <text x="36" y="38" fill="#64748B">company</text>
+    <text x="36" y="60" fill="#E2E8F0">Bhanzu · Exploring Infinities</text>
+    <text x="340" y="38" fill="#64748B">location</text>
+    <text x="340" y="60" fill="#E2E8F0">Hyderabad, India</text>
+    <text x="580" y="38" fill="#64748B">web</text>
+    <text x="580" y="60" fill="#00D9F5">bhanzu.com</text>
+    <text x="760" y="38" fill="#64748B">handle</text>
+    <text x="760" y="60" fill="#00F5A0">@prabhuatbhanzu</text>
+  </g>
+</svg>

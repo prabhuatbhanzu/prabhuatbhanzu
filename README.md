@@ -1,198 +1,197 @@
 <!--
-  Profile README for github.com/prabhuatbhanzu
-  Dark-first · maintainable · no badge spam
-  Update: Currently / Things I Build sections as work changes
-  Last publish: live on github.com/prabhuatbhanzu
+  github.com/prabhuatbhanzu — profile README
+  Dark / neon / production aesthetic
+  GitHub requires this repo PUBLIC for visitors to see the profile README.
 -->
 
 <div align="center">
-
   <img src="./assets/hero.svg" alt="Solve. Build. Ship. — Backend Developer, Full-Stack Builder, Product Engineer" width="100%" />
-
 </div>
 
-<br />
+<br/>
 
 <div align="center">
-
-**I turn hard problems into software that ships.**
-
-Backend-first. Product-minded. Production-focused.
-
+  <img src="./assets/typing.svg" alt="Rotating engineering taglines" width="100%" />
 </div>
 
-<br />
+<br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/links.svg" alt="Bhanzu · Exploring Infinities · Hyderabad, India · bhanzu.com" width="100%" />
 </div>
 
-<br />
+<br/>
+
+<p align="center">
+  <a href="https://bhanzu.com"><img src="https://img.shields.io/badge/web-bhanzu.com-00D9F5?style=for-the-badge&labelColor=030712" alt="bhanzu.com"/></a>
+  <a href="https://github.com/Exploring-Infinities"><img src="https://img.shields.io/badge/org-Exploring%20Infinities-7C5CFF?style=for-the-badge&labelColor=030712" alt="Exploring Infinities"/></a>
+  <img src="https://img.shields.io/badge/base-Hyderabad%2C%20India-00F5A0?style=for-the-badge&labelColor=030712" alt="Hyderabad, India"/>
+</p>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="480" />
+</div>
 
 ## About
 
-I spend most of my time in the backend — APIs, services, data paths, and the cloud wiring that keeps products alive.
+Backend is home base. Products are the point.
 
-When the product needs it, I cross the stack: TypeScript/React surfaces, payment flows, enrollment funnels, the boring glue that makes a feature actually usable.
+I design APIs, data paths, and cloud systems — then stay close enough to the UI, payments, and enrollment surfaces that the thing actually ships.
 
-I care less about “knowing every tool” and more about clear systems, sharp tradeoffs, and getting work into production.
+Not a résumé. A working style:
+
+- **Solve** the real constraint first
+- **Build** the smallest system that holds
+- **Ship** it where users can break it
+- **Scale** only what survives
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/divider.svg" alt="" width="480" />
 </div>
 
 ## Engineering Stack
 
-Organized by how I actually use them — not a résumé dump.
+<div align="center">
+  <img src="./assets/stack.svg" alt="Engineering stack strength bars for Backend, Data, Infra, and Frontend" width="100%" />
+</div>
 
-| | |
+<details>
+<summary><strong>Exact tools in rotation</strong></summary>
+<br/>
+
+| Layer | Stack |
 | :--- | :--- |
 | **Backend** | Python · Flask · FastAPI · Node.js · Java |
 | **Data** | PostgreSQL · DynamoDB · Redis · S3 |
 | **Infrastructure** | AWS (Lambda, EKS) · Docker · Kubernetes · Argo CD · Terraform · GitHub Actions |
 | **Frontend** | TypeScript · React · Next.js · Tailwind CSS |
 | **Observability** | Datadog · Sentry |
-| **Tools** | Git · GitHub · Linux · VS Code / Cursor |
-
-<details>
-<summary><strong>Why this list</strong></summary>
-
-<br />
-
-Pulled from systems I actively build and maintain — service platforms, lambdas, product frontends, and deployment pipelines. Anything I only touched once is left out on purpose.
+| **Tools** | Git · GitHub · Linux · Cursor |
 
 </details>
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/divider.svg" alt="" width="480" />
 </div>
 
 ## Things I Build
 
-Systems over demos. Production over prototypes.
+Production systems — not demo folders.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Service platforms &amp; APIs</h3>
-      <p>
-        Backend services for scheduling, payments, communications, LMS, and internal tooling —
-        Flask/FastAPI services, shared libraries, and the contracts between them.
-      </p>
-      <code>Python</code> · <code>Flask</code> · <code>FastAPI</code> · <code>AWS</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Event-driven cloud work</h3>
-      <p>
-        Lambdas and async pipelines that move data, process webhooks, and keep product workflows
-        running without babysitting.
-      </p>
-      <code>AWS Lambda</code> · <code>DynamoDB</code> · <code>S3</code> · <code>Postgres</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Product frontends</h3>
-      <p>
-        When ownership spans the full product surface — Next.js apps, enrollment flows,
-        payments UX, and the details that decide whether a feature actually lands.
-      </p>
-      <code>Next.js</code> · <code>React</code> · <code>TypeScript</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Ship &amp; run infrastructure</h3>
-      <p>
-        Containers, GitOps, and cloud topology so “it works on my machine” becomes
-        “it’s live and observable.”
-      </p>
-      <code>Docker</code> · <code>Kubernetes</code> · <code>Argo CD</code> · <code>Terraform</code>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### Service platforms & APIs
+Scheduling, payments, communications, LMS, internal tooling.
+Shared libraries. Clear contracts. Boring reliability.
+
+`Python` · `Flask` · `FastAPI` · `AWS`
+
+</td>
+<td width="50%" valign="top">
+
+### Event-driven cloud work
+Lambdas, webhooks, async pipelines that keep product workflows moving without babysitting.
+
+`Lambda` · `DynamoDB` · `S3` · `Postgres`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Product frontends
+Enrollment flows, payments UX, Next.js surfaces — when owning the full path is what gets it shipped.
+
+`Next.js` · `React` · `TypeScript`
+
+</td>
+<td width="50%" valign="top">
+
+### Ship & run infrastructure
+Containers, GitOps, cloud topology, observability loops.
+
+`Docker` · `Kubernetes` · `Argo CD` · `Terraform`
+
+</td>
+</tr>
 </table>
 
-> Most of this work lives in private product repos. Public project cards will land here as they ship.
-
-<!-- Featured public repos (uncomment + edit when ready)
-<p align="center">
-  <a href="https://github.com/prabhuatbhanzu/REPO_ONE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabhuatbhanzu&repo=REPO_ONE&theme=transparent&bg_color=0B1220&title_color=3DFFB5&text_color=E2E8F0&icon_color=5B8CFF&hide_border=true" alt="REPO_ONE" />
-  </a>
-  <a href="https://github.com/prabhuatbhanzu/REPO_TWO">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabhuatbhanzu&repo=REPO_TWO&theme=transparent&bg_color=0B1220&title_color=3DFFB5&text_color=E2E8F0&icon_color=5B8CFF&hide_border=true" alt="REPO_TWO" />
-  </a>
-</p>
--->
+> Most work lives in private product repos. Public pins land here as they ship.
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/divider.svg" alt="" width="480" />
 </div>
 
 ## Currently
 
-What I’m actively in the middle of (edit freely):
-
-- Hardening backend services and async Lambda paths
-- Shipping product enrollment / payments surfaces end-to-end
-- Tightening deploy + observability loops (GitOps, metrics, alerts)
+- Hardening backend services + async Lambda paths
+- Shipping enrollment / payments surfaces end-to-end
+- Tightening GitOps + observability loops
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/divider.svg" alt="" width="480" />
 </div>
 
 ## Building in Public
 
-The contribution graph is the point. Everything else is secondary.
+The heatmap is the centerpiece. It moves on purpose.
+
+<div align="center">
+  <img src="./assets/snake-heatmap.svg" alt="Animated contribution snake heatmap" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/heatmap-animated.svg" alt="Animated pulsing contribution surface" width="100%" />
+</div>
+
+<br/>
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=prabhuatbhanzu&bg_color=070a0f&color=94a3b8&line=3dffb5&point=5b8cff&area=true&area_color=3dffb5&hide_border=true&custom_title=Activity"
-    alt="GitHub contribution activity graph for prabhuatbhanzu"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=prabhuatbhanzu&bg_color=030712&color=94a3b8&line=00f5a0&point=00d9f5&area=true&area_color=00f5a0&hide_border=true&custom_title=Activity%20Graph"
+    alt="GitHub activity graph for prabhuatbhanzu"
     width="100%"
   />
 </div>
 
-<br />
+<br/>
 
 <div align="center">
   <img
-    src="https://ghchart.rshah.org/3dffb5/prabhuatbhanzu"
-    alt="GitHub contribution calendar heatmap for prabhuatbhanzu"
+    src="https://ghchart.rshah.org/00f5a0/prabhuatbhanzu"
+    alt="GitHub contribution calendar for prabhuatbhanzu"
     width="100%"
   />
 </div>
 
-<br />
+<br/>
 
 <div align="center">
-  <a href="https://github.com/prabhuatbhanzu" title="GitHub profile stats">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=prabhuatbhanzu&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&bg_color=0B1220&title_color=3DFFB5&text_color=E2E8F0&icon_color=5B8CFF&hide_border=true&ring_color=3DFFB5"
-      alt="GitHub stats for prabhuatbhanzu"
-      height="160"
-    />
+  <a href="https://github.com/prabhuatbhanzu">
+    <img height="158" src="https://github-readme-stats.vercel.app/api?username=prabhuatbhanzu&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&bg_color=030712&title_color=00F5A0&text_color=E2E8F0&icon_color=00D9F5&hide_border=true&ring_color=00F5A0" alt="GitHub stats"/>
   </a>
-  <a href="https://github.com/prabhuatbhanzu" title="Contribution streak">
-    <img
-      src="https://streak-stats.demolab.com/?user=prabhuatbhanzu&theme=dark&background=0B1220&border=0B1220&ring=3DFFB5&fire=5B8CFF&currStreakLabel=3DFFB5&sideLabels=94A3B8&dates=64748B&stroke=1E293B&hide_border=true"
-      alt="GitHub streak stats for prabhuatbhanzu"
-      height="160"
-    />
+  <a href="https://github.com/prabhuatbhanzu">
+    <img height="158" src="https://streak-stats.demolab.com/?user=prabhuatbhanzu&theme=dark&background=030712&border=030712&ring=00F5A0&fire=00D9F5&currStreakLabel=00F5A0&sideLabels=94A3B8&dates=64748B&stroke=132033&hide_border=true" alt="GitHub streak"/>
   </a>
 </div>
 
-<p align="center"><sub>Quiet graphs on a new account are normal. The design stays intact either way.</sub></p>
+<p align="center"><sub>New accounts start quiet. The design stays loud.</sub></p>
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="" width="420" />
+  <img src="./assets/divider.svg" alt="" width="480" />
 </div>
 
 ## Signature
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Terminal signature: backend engineer, product builder, production shipper — status building" width="720" />
+  <img src="./assets/terminal.svg" alt="Terminal signature with company, location, and status" width="100%" />
 </div>
 
-<br />
+<br/>
 
 <div align="center">
 
@@ -200,10 +199,12 @@ The contribution graph is the point. Everything else is secondary.
 
 Not demos. Not decks. **Working software in production.**
 
-<br />
+<br/>
 
 <sub>
-  <a href="https://github.com/prabhuatbhanzu">prabhuatbhanzu</a>
+  <a href="https://github.com/prabhuatbhanzu">@prabhuatbhanzu</a>
+  · <a href="https://bhanzu.com">bhanzu.com</a>
+  · Hyderabad
   · Backend · Full-Stack · Product
 </sub>
 
