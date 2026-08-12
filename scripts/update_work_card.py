@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "v3"
-W = 1800
+W = 2000
 LOGIN = "prabhuatbhanzu"
 IST = ZoneInfo("Asia/Kolkata")
 
@@ -96,7 +96,7 @@ def latest_commit() -> dict:
 
 
 def work_svg(p: dict, commit: dict, prs: dict[str, int], today: str) -> str:
-    h = 520
+    h = 560
     cards = [
         ("Open", prs["open"], p["open"]),
         ("Merged", prs["merged"], p["merged"]),
@@ -107,8 +107,8 @@ def work_svg(p: dict, commit: dict, prs: dict[str, int], today: str) -> str:
     outer = 56
     usable = W - 2 * outer - 3 * gap
     cw = usable // 4
-    cy = 250
-    ch = 150
+    cy = 270
+    ch = 170
 
     sha = html.escape(commit["sha"])
     subject = html.escape(commit["subject"])
@@ -119,14 +119,14 @@ def work_svg(p: dict, commit: dict, prs: dict[str, int], today: str) -> str:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="Work and pull requests" text-rendering="geometricPrecision">',
         f'<rect width="{W}" height="{h}" rx="24" fill="{p["panel"]}" stroke="{p["border"]}"/>',
         f'<text x="56" y="64" fill="{p["text"]}" font-family="{FONT}" font-size="40" font-weight="800">Work</text>',
-        f'<text x="{W-56}" y="64" text-anchor="end" fill="{p["accent"]}" font-family="{MONO}" font-size="22" font-weight="700">{today_e}</text>',
+        f'<text x="{W-56}" y="64" text-anchor="end" fill="{p["accent"]}" font-family="{MONO}" font-size="26" font-weight="800">{today_e}</text>',
         f'<rect x="56" y="82" width="88" height="5" rx="2.5" fill="{p["accent"]}"/>',
-        f'<rect x="56" y="110" width="{W-112}" height="56" rx="16" fill="{p["panel2"]}" stroke="{p["border"]}"/>',
-        f'<text x="84" y="146" fill="{p["accent"]}" font-family="{MONO}" font-size="22" font-weight="700">latest</text>',
-        f'<text x="200" y="146" fill="{p["faint"]}" font-family="{MONO}" font-size="22" font-weight="700">{sha}</text>',
-        f'<text x="320" y="146" fill="{p["text"]}" font-family="{FONT}" font-size="24" font-weight="700">{subject}</text>',
-        f'<text x="{W-84}" y="146" text-anchor="end" fill="{p["muted"]}" font-family="{FONT}" font-size="22" font-weight="700">{rel}</text>',
-        f'<text x="56" y="220" fill="{p["muted"]}" font-family="{FONT}" font-size="22" font-weight="700">Pull requests</text>',
+        f'<rect x="56" y="110" width="{W-112}" height="64" rx="18" fill="{p["panel2"]}" stroke="{p["border"]}"/>',
+        f'<text x="84" y="146" fill="{p["accent"]}" font-family="{MONO}" font-size="24" font-weight="800">latest</text>',
+        f'<text x="200" y="146" fill="{p["faint"]}" font-family="{MONO}" font-size="24" font-weight="800">{sha}</text>',
+        f'<text x="320" y="146" fill="{p["text"]}" font-family="{FONT}" font-size="26" font-weight="700">{subject}</text>',
+        f'<text x="{W-84}" y="146" text-anchor="end" fill="{p["muted"]}" font-family="{FONT}" font-size="24" font-weight="700">{rel}</text>',
+        f'<text x="56" y="220" fill="{p["muted"]}" font-family="{FONT}" font-size="26" font-weight="800">Pull requests</text>',
     ]
 
     for i, (label, value, color) in enumerate(cards):
@@ -134,14 +134,14 @@ def work_svg(p: dict, commit: dict, prs: dict[str, int], today: str) -> str:
         parts.append(f'<rect x="{x}" y="{cy}" width="{cw}" height="{ch}" rx="20" fill="{p["panel2"]}" stroke="{p["border"]}"/>')
         parts.append(f'<rect x="{x}" y="{cy}" width="{cw}" height="8" rx="4" fill="{color}"/>')
         parts.append(
-            f'<text x="{x + cw/2}" y="{cy + 78}" text-anchor="middle" fill="{color}" font-family="{FONT}" font-size="56" font-weight="800">{value}</text>'
+            f'<text x="{x + cw/2}" y="{cy + 78}" text-anchor="middle" fill="{color}" font-family="{FONT}" font-size="64" font-weight="800">{value}</text>'
         )
         parts.append(
-            f'<text x="{x + cw/2}" y="{cy + 122}" text-anchor="middle" fill="{p["text"]}" font-family="{FONT}" font-size="24" font-weight="800">{label}</text>'
+            f'<text x="{x + cw/2}" y="{cy + 122}" text-anchor="middle" fill="{p["text"]}" font-family="{FONT}" font-size="28" font-weight="800">{label}</text>'
         )
 
     parts.append(
-        f'<text x="56" y="460" fill="{p["muted"]}" font-family="{FONT}" font-size="22" font-weight="700">Systems · Cloud · Product · Delivery — shipping through review, not decks.</text>'
+        f'<text x="56" y="500" fill="{p["muted"]}" font-family="{FONT}" font-size="26" font-weight="700">Systems · Cloud · Product · Delivery — shipping through review, not decks.</text>'
     )
     parts.append("</svg>")
     return "\n".join(parts)

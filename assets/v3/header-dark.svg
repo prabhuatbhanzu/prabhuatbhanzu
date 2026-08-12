@@ -1,59 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="420" viewBox="0 0 1800 420" role="img" aria-label="Solve. Build. Ship." text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="460" viewBox="0 0 2000 460" role="img" aria-label="Solve. Build. Ship." text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0E1520"/>
-      <stop offset="100%" stop-color="#070B12"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0E1520"/><stop offset="100%" stop-color="#070B12"/></linearGradient>
     <linearGradient id="move" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4DA3FF" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#4DA3FF" stop-opacity="0.28"/>
-      <stop offset="60%" stop-color="#8AC2FF" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#8AC2FF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#5EB1FF" stop-opacity="0"/><stop offset="45%" stop-color="#5EB1FF" stop-opacity="0.30"/><stop offset="100%" stop-color="#9ACCFF" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="14s" repeatCount="indefinite" additive="sum"/>
     </linearGradient>
-    <radialGradient id="orb" cx="82%" cy="18%" r="42%">
-      <stop offset="0%" stop-color="#163556" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#163556" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#243041" stroke-width="1"/>
-    </pattern>
+    <radialGradient id="orb" cx="82%" cy="18%" r="42%"><stop offset="0%" stop-color="#1A3F66" stop-opacity="1"/><stop offset="100%" stop-color="#1A3F66" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2A3648" stroke-width="1"/></pattern>
   </defs>
-  <rect width="1800" height="420" rx="24" fill="url(#bg)" stroke="#243041"/>
-  <rect width="1800" height="420" rx="24" fill="url(#grid)" opacity="0.28"/>
-  <rect width="1800" height="420" rx="24" fill="url(#orb)"/>
-  <rect width="1800" height="420" rx="24" fill="url(#move)"/>
-  <rect x="0" y="416" width="1800" height="4" fill="#4DA3FF" opacity="0.55"/>
-
-  <g transform="translate(56,48)">
-    <circle cx="0" cy="0" r="6" fill="#FF5F57"/>
-    <circle cx="22" cy="0" r="6" fill="#FEBC2E"/>
-    <circle cx="44" cy="0" r="6" fill="#28C840"/>
-    <text x="72" y="5" fill="#66768C" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">prabhuatbhanzu</text>
+  <rect width="2000" height="460" rx="28" fill="url(#bg)" stroke="#2A3648"/>
+  <rect width="2000" height="460" rx="28" fill="url(#grid)" opacity="0.25"/>
+  <rect width="2000" height="460" rx="28" fill="url(#orb)"/>
+  <rect width="2000" height="460" rx="28" fill="url(#move)"/>
+  <rect x="0" y="454" width="2000" height="6" fill="#5EB1FF" opacity="0.6"/>
+  <g transform="translate(64,56)"><circle cx="0" cy="0" r="7" fill="#FF5F57"/><circle cx="26" cy="0" r="7" fill="#FEBC2E"/><circle cx="52" cy="0" r="7" fill="#28C840"/>
+  <text x="84" y="6" fill="#8E9CB0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="700">prabhuatbhanzu</text></g>
+  <text x="64" y="150" fill="#5EB1FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="700" letter-spacing="4">BACKEND · PRODUCT · PRODUCTION</text>
+  <text x="64" y="240" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800">Solve. Build. Ship.</text>
+  <text x="64" y="300" fill="#C5D0E0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Backend Developer · Full-Stack Builder · Product Engineer</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700">
+    <rect x="64" y="348" width="200" height="56" rx="16" fill="#141C28" stroke="#2A3648"/><text x="164" y="385" text-anchor="middle" fill="#FFFFFF">Bengaluru</text>
+    <rect x="280" y="348" width="150" height="56" rx="16" fill="#141C28" stroke="#2A3648"/><text x="355" y="385" text-anchor="middle" fill="#FFFFFF">Bhanzu</text>
+    <rect x="446" y="348" width="210" height="56" rx="16" fill="#141C28" stroke="#2A3648"/><text x="551" y="385" text-anchor="middle" fill="#5EB1FF">bhanzu.com</text>
   </g>
-
-  <text x="56" y="130" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" letter-spacing="4">BACKEND · PRODUCT · PRODUCTION</text>
-  <text x="56" y="210" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="700">Solve. Build. Ship.</text>
-  <text x="56" y="262" fill="#93A1B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24">Backend Developer · Full-Stack Builder · Product Engineer</text>
-
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18">
-    <rect x="56" y="304" width="170" height="48" rx="14" fill="#121A27" stroke="#243041"/>
-    <text x="141" y="335" text-anchor="middle" fill="#F2F6FC">Bengaluru</text>
-    <rect x="238" y="304" width="130" height="48" rx="14" fill="#121A27" stroke="#243041"/>
-    <text x="303" y="335" text-anchor="middle" fill="#F2F6FC">Bhanzu</text>
-    <rect x="380" y="304" width="180" height="48" rx="14" fill="#121A27" stroke="#243041"/>
-    <text x="470" y="335" text-anchor="middle" fill="#4DA3FF">bhanzu.com</text>
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">
-    <rect x="980" y="304" width="760" height="48" rx="14" fill="#121A27" stroke="#243041"/>
-    <text x="1010" y="335" fill="#66768C">flow</text>
-    <text x="1080" y="335" fill="#F2F6FC">IDEATE</text>
-    <text x="1190" y="335" fill="#4DA3FF">→</text>
-    <text x="1230" y="335" fill="#F2F6FC">BUILD</text>
-    <text x="1330" y="335" fill="#4DA3FF">→</text>
-    <text x="1370" y="335" fill="#F2F6FC">SHIP</text>
-    <text x="1455" y="335" fill="#4DA3FF">→</text>
-    <text x="1495" y="335" fill="#8AC2FF">SCALE</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="700">
+    <rect x="1100" y="348" width="836" height="56" rx="16" fill="#141C28" stroke="#2A3648"/>
+    <text x="1130" y="385" fill="#8E9CB0">flow</text><text x="1210" y="385" fill="#FFFFFF">IDEATE</text><text x="1330" y="385" fill="#5EB1FF">→</text>
+    <text x="1370" y="385" fill="#FFFFFF">BUILD</text><text x="1480" y="385" fill="#5EB1FF">→</text>
+    <text x="1520" y="385" fill="#FFFFFF">SHIP</text><text x="1615" y="385" fill="#5EB1FF">→</text><text x="1655" y="385" fill="#9ACCFF">SCALE</text>
   </g>
 </svg>
