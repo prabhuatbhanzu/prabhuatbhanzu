@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - "assets/v3/work-dark.svg"
       - "assets/v3/work-light.svg"
+  schedule:
+    - cron: "30 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +25,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh Work card from latest commit
+      - name: Refresh Work card
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_GRAPHICS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_work_card.py
 
       - name: Commit Work card
