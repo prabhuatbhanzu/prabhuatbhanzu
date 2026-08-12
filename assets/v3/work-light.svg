@@ -1,29 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="560" viewBox="0 0 2000 560" role="img" aria-label="Work and pull requests" text-rendering="geometricPrecision">
-<rect width="2000" height="560" rx="24" fill="#FFFFFF" stroke="#D0DAE6"/>
-<text x="56" y="64" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800">Work</text>
-<text x="1944" y="64" text-anchor="end" fill="#1769E0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">12 Aug 2026</text>
-<rect x="56" y="82" width="88" height="5" rx="2.5" fill="#1769E0"/>
-<rect x="56" y="110" width="1888" height="64" rx="18" fill="#EEF3F9" stroke="#D0DAE6"/>
-<text x="84" y="146" fill="#1769E0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="800">latest</text>
-<text x="200" y="146" fill="#5C6B80" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="800">f36e09d</text>
-<text x="320" y="146" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Improve desktop clarity with larger, higher-contrast type.</text>
-<text x="1916" y="146" text-anchor="end" fill="#3D4B5C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700">just now</text>
-<text x="56" y="220" fill="#3D4B5C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="800">Pull requests</text>
-<rect x="56" y="270" width="454" height="170" rx="20" fill="#EEF3F9" stroke="#D0DAE6"/>
-<rect x="56" y="270" width="454" height="8" rx="4" fill="#1A7F37"/>
-<text x="283.0" y="348" text-anchor="middle" fill="#1A7F37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800">0</text>
-<text x="283.0" y="392" text-anchor="middle" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="800">Open</text>
-<rect x="534" y="270" width="454" height="170" rx="20" fill="#EEF3F9" stroke="#D0DAE6"/>
-<rect x="534" y="270" width="454" height="8" rx="4" fill="#8250DF"/>
-<text x="761.0" y="348" text-anchor="middle" fill="#8250DF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800">0</text>
-<text x="761.0" y="392" text-anchor="middle" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="800">Merged</text>
-<rect x="1012" y="270" width="454" height="170" rx="20" fill="#EEF3F9" stroke="#D0DAE6"/>
-<rect x="1012" y="270" width="454" height="8" rx="4" fill="#9A6700"/>
-<text x="1239.0" y="348" text-anchor="middle" fill="#9A6700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800">0</text>
-<text x="1239.0" y="392" text-anchor="middle" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="800">Drafts</text>
-<rect x="1490" y="270" width="454" height="170" rx="20" fill="#EEF3F9" stroke="#D0DAE6"/>
-<rect x="1490" y="270" width="454" height="8" rx="4" fill="#CF222E"/>
-<text x="1717.0" y="348" text-anchor="middle" fill="#CF222E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800">0</text>
-<text x="1717.0" y="392" text-anchor="middle" fill="#0B1220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="800">Closed</text>
-<text x="56" y="500" fill="#3D4B5C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Systems · Cloud · Product · Delivery — shipping through review, not decks.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="410" viewBox="0 0 2000 410" role="img" aria-label="Work" text-rendering="geometricPrecision">
+<rect width="2000" height="410" rx="24" fill="#FFFFFF" stroke="#D0DAE6"/>
+<text x="56" y="52" fill="#121926" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="600">Work</text>
+<text x="1944" y="52" text-anchor="end" fill="#5B6B80" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="500">12 Aug 2026</text>
+<rect x="56" y="68" width="56" height="3" rx="1.5" fill="#1769E0"/>
+<rect x="56" y="118" width="900" height="112" rx="16" fill="#F3F7FC" stroke="#D0DAE6"/>
+<circle cx="92" cy="174" r="5" fill="#1769E0"/>
+<text x="114" y="166" fill="#121926" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600">Systems</text>
+<text x="114" y="196" fill="#5B6B80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500">APIs and service platforms with clear contracts</text>
+<rect x="976" y="118" width="900" height="112" rx="16" fill="#F3F7FC" stroke="#D0DAE6"/>
+<circle cx="1012" cy="174" r="5" fill="#1769E0"/>
+<text x="1034" y="166" fill="#121926" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600">Cloud</text>
+<text x="1034" y="196" fill="#5B6B80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500">Event-driven AWS paths that stay quiet in prod</text>
+<rect x="56" y="250" width="900" height="112" rx="16" fill="#F3F7FC" stroke="#D0DAE6"/>
+<circle cx="92" cy="306" r="5" fill="#1769E0"/>
+<text x="114" y="298" fill="#121926" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600">Product</text>
+<text x="114" y="328" fill="#5B6B80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500">Full-stack when shipping needs one owner</text>
+<rect x="976" y="250" width="900" height="112" rx="16" fill="#F3F7FC" stroke="#D0DAE6"/>
+<circle cx="1012" cy="306" r="5" fill="#1769E0"/>
+<text x="1034" y="298" fill="#121926" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600">Delivery</text>
+<text x="1034" y="328" fill="#5B6B80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500">GitOps, deploys, and observability loops</text>
 </svg>

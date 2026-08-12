@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="648" viewBox="0 0 2000 648" role="img" aria-label="Stack" text-rendering="geometricPrecision">
   <rect width="2000" height="648" rx="28" fill="#FFFFFF" stroke="#C9D4E3"/>
-  <text x="64" y="72" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="800">Stack</text>
+  <text x="64" y="72" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="600">Stack</text>
   <rect x="64" y="92" width="84" height="6" rx="3" fill="#0B5FFF"/>
 <rect x="64" y="140" width="1872" height="76" rx="18" fill="#EEF3FA" stroke="#C9D4E3"/>
-<text x="100" y="188" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">Backend</text>
-<text x="320" y="188" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Python · Flask · FastAPI · Node.js · Java</text>
+<text x="100" y="188" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="600">Backend</text>
+<text x="320" y="188" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500">Python · Flask · FastAPI · Node.js · Java</text>
 <rect x="64" y="232" width="1872" height="76" rx="18" fill="#EEF3FA" stroke="#C9D4E3"/>
-<text x="100" y="280" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">Data</text>
-<text x="320" y="280" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">PostgreSQL · DynamoDB · Redis · S3</text>
+<text x="100" y="280" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="600">Data</text>
+<text x="320" y="280" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500">PostgreSQL · DynamoDB · Redis · S3</text>
 <rect x="64" y="324" width="1872" height="76" rx="18" fill="#EEF3FA" stroke="#C9D4E3"/>
-<text x="100" y="372" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">Infra</text>
-<text x="320" y="372" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">AWS · Docker · Kubernetes · Argo CD · Terraform</text>
+<text x="100" y="372" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="600">Infra</text>
+<text x="320" y="372" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500">AWS · Docker · Kubernetes · Argo CD · Terraform</text>
 <rect x="64" y="416" width="1872" height="76" rx="18" fill="#EEF3FA" stroke="#C9D4E3"/>
-<text x="100" y="464" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">Frontend</text>
-<text x="320" y="464" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">TypeScript · React · Next.js</text>
+<text x="100" y="464" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="600">Frontend</text>
+<text x="320" y="464" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500">TypeScript · React · Next.js</text>
 <rect x="64" y="508" width="1872" height="76" rx="18" fill="#EEF3FA" stroke="#C9D4E3"/>
-<text x="100" y="556" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="800">Ops</text>
-<text x="320" y="556" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Datadog · Sentry · GitHub Actions</text>
+<text x="100" y="556" fill="#0B5FFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="600">Ops</text>
+<text x="320" y="556" fill="#0A0F18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500">Datadog · Sentry · GitHub Actions</text>
 </svg>

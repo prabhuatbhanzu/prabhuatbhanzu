@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="300" viewBox="0 0 2000 300" role="img" aria-label="About" text-rendering="geometricPrecision">
   <rect width="2000" height="300" rx="28" fill="#0E1520" stroke="#2A3648"/>
-  <text x="64" y="72" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="800">About</text>
+  <text x="64" y="72" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="600">About</text>
   <rect x="64" y="92" width="84" height="6" rx="3" fill="#5EB1FF"/>
-  <text x="64" y="160" fill="#C5D0E0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="700">I ship backends for a living — and the UI when production starts arguing.</text>
-  <text x="64" y="208" fill="#C5D0E0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="700">APIs, data, cloud, and the awkward glue that turns demos into products.</text>
-  <text x="64" y="260" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800">If it only works on my laptop, it doesn&apos;t count.</text>
+  <text x="64" y="160" fill="#C5D0E0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="500">I ship backends for a living — and the UI when production starts arguing.</text>
+  <text x="64" y="208" fill="#C5D0E0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="500">APIs, data, cloud, and the awkward glue that turns demos into products.</text>
+  <text x="64" y="260" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="600">If it only works on my laptop, it doesn&apos;t count.</text>
 </svg>
