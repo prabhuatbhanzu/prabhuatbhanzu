@@ -1,35 +1,37 @@
 <!--
-  Profile README — theme adaptive (light/dark)
-  Contribution graphics are generated from GitHub's real contribution calendar (same source as your profile graph).
-  Refresh: python3 scripts/generate_profile_graphics.py
-  or the update-graphics workflow.
+  Theme-adaptive profile README (light + dark).
+  Contribution graphics are generated from GitHub's real contribution calendar.
+  Note: GitHub only renders profile READMEs from a PUBLIC username/username repo.
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-  <img src="./assets/divider-light.svg" alt="" width="100%" />
-</picture>
-
 <div align="center">
-
-# Prabhu
-
-**Solve. Build. Ship.**
-
-Backend Developer · Full-Stack Builder · Product Engineer
-
-[bhanzu.com](https://bhanzu.com) · Hyderabad · [@Exploring-Infinities](https://github.com/Exploring-Infinities)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <img src="./assets/header-light.svg" alt="Solve. Build. Ship. — Prabhu, Backend Developer" width="100%" />
+  </picture>
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-  <img src="./assets/divider-light.svg" alt="" width="100%" />
-</picture>
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <img src="./assets/divider-light.svg" alt="" width="420" />
+  </picture>
+</div>
 
 ## About
 
-I build backend systems for real products — APIs, data, cloud — and go full-stack when that’s what it takes to ship.
+I design and ship backend systems for products that have to work in production — APIs, data paths, cloud, and the full-stack pieces that close the loop.
+
+Fewer moving parts. Clear tradeoffs. Software that survives contact with users.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <img src="./assets/divider-light.svg" alt="" width="420" />
+  </picture>
+</div>
 
 ## Stack
 
@@ -41,45 +43,66 @@ I build backend systems for real products — APIs, data, cloud — and go full-
 | **Frontend** | TypeScript · React · Next.js |
 | **Ops** | Datadog · Sentry · GitHub Actions |
 
-## Focus
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <img src="./assets/divider-light.svg" alt="" width="420" />
+  </picture>
+</div>
 
-- Service platforms & APIs
+## Work
+
+- Service platforms and APIs
 - Event-driven AWS workloads
-- Product surfaces (Next.js) when ownership spans the stack
-- Deploy / GitOps / observability
+- Product surfaces in Next.js when ownership spans the stack
+- Deploy, GitOps, and observability
 
-Most work is in private product repos. Public projects will be pinned here when they ship.
+Most of this lives in private product repositories. Public work will be pinned here when it ships.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-  <img src="./assets/divider-light.svg" alt="" width="100%" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <img src="./assets/divider-light.svg" alt="" width="420" />
+  </picture>
+</div>
 
 ## Contributions
 
-Real contribution calendar from GitHub (includes private contributions shown on your profile). Same source as the graph on your profile page.
+Same calendar as the graph on this GitHub profile — including private contributions.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg"/>
-  <img src="./assets/contributions-light.svg" alt="GitHub contribution graph" width="100%" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg" />
+    <img src="./assets/contributions-light.svg" alt="Real GitHub contribution graph" width="100%" />
+  </picture>
+</div>
 
-<br/>
+<br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg"/>
-  <img src="./assets/stats-light.svg" alt="Contribution statistics" width="100%" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
+    <img src="./assets/stats-light.svg" alt="Real contribution statistics" width="100%" />
+  </picture>
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-  <img src="./assets/divider-light.svg" alt="" width="100%" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <img src="./assets/divider-light.svg" alt="" width="420" />
+  </picture>
+</div>
 
 <div align="center">
 
-**Build things. Solve problems. Ship often.**
+### Clarity over ceremony.
 
-<sub><a href="https://github.com/prabhuatbhanzu">@prabhuatbhanzu</a></sub>
+Ship the hard part.
+
+<sub>
+  <a href="https://github.com/prabhuatbhanzu">@prabhuatbhanzu</a>
+  · <a href="https://bhanzu.com">bhanzu.com</a>
+  · Bengaluru
+</sub>
 
 </div>

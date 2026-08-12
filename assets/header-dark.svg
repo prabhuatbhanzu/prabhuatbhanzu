@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="Prabhu — Solve. Build. Ship.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1510"/>
+      <stop offset="100%" stop-color="#0B0D10"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="220" rx="18" fill="url(#bg)" stroke="#242A33"/>
+  <rect x="28" y="28" width="4" height="164" rx="2" fill="#D6B28A"/>
+  <text x="56" y="64" fill="#9AA3AD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">BACKEND · PRODUCT · PRODUCTION</text>
+  <text x="56" y="118" fill="#F4F1EA" font-family="Georgia, 'Times New Roman', Times, serif" font-size="44" font-weight="700">Solve. Build. Ship.</text>
+  <text x="56" y="156" fill="#9AA3AD" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">Backend Developer · Full-Stack Builder · Product Engineer</text>
+  <text x="56" y="188" fill="#D6B28A" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Bengaluru · Bhanzu / Exploring Infinities · bhanzu.com</text>
+</svg>

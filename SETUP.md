@@ -1,3 +1,12 @@
+# Profile notes
+
+## Public vs private
+
+GitHub will **only** show a profile README if `prabhuatbhanzu/prabhuatbhanzu` is **public**.
+A private repo cannot appear on your public profile for visitors. Keep this repo public.
+
+Location, bio, company, and website are set on the GitHub profile settings (and via API).
+
 # Profile graphics
 
 Contribution SVGs are generated from GitHub's real contribution calendar (same source as your profile graph).

@@ -51,23 +51,24 @@ query($login:String!){
 
 # GitHub-like palettes (empty → high)
 PALETTES = {
+    # Ink / paper — restrained, senior, high-contrast without neon
     "dark": {
-        "bg": "#0D1117",
-        "panel": "#0D1117",
-        "border": "#21262D",
-        "text": "#E6EDF3",
-        "muted": "#8B949E",
-        "accent": "#58A6FF",
-        "levels": ["#161B22", "#0E4429", "#006D32", "#26A641", "#39D353"],
+        "bg": "#0B0D10",
+        "panel": "#12151A",
+        "border": "#242A33",
+        "text": "#F4F1EA",
+        "muted": "#9AA3AD",
+        "accent": "#D6B28A",
+        "levels": ["#171B21", "#3D4F3F", "#5F8F6B", "#8FBF8A", "#C6E6B6"],
     },
     "light": {
-        "bg": "#FFFFFF",
-        "panel": "#FFFFFF",
-        "border": "#D0D7DE",
-        "text": "#1F2328",
-        "muted": "#656D76",
-        "accent": "#0969DA",
-        "levels": ["#EBEDF0", "#9BE9A8", "#40C463", "#30A14E", "#216E39"],
+        "bg": "#F7F4EF",
+        "panel": "#FFFCF7",
+        "border": "#E4DED4",
+        "text": "#1A1A1A",
+        "muted": "#6F6A63",
+        "accent": "#8A6A45",
+        "levels": ["#E8E4DC", "#C5D9C0", "#8FB892", "#5F8F6B", "#3D5C45"],
     },
 }
 
