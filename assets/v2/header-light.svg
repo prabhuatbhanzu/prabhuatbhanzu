@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="Solve. Build. Ship.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F5F8FC"/>
+      <stop offset="100%" stop-color="#EEF3F9"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1772EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#1772EB" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0B5ED7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="85%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#D9E8FB" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#D9E8FB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#D5DEE9" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="320" rx="20" fill="url(#bg)" stroke="#D5DEE9"/>
+  <rect width="1100" height="320" rx="20" fill="url(#grid)" opacity="0.35"/>
+  <rect width="1100" height="320" rx="20" fill="url(#orb)"/>
+  <rect x="0" y="316" width="1100" height="4" fill="url(#stroke)"/>
+
+  <g transform="translate(40,34)">
+    <circle cx="0" cy="0" r="5" fill="#FF5F57"/>
+    <circle cx="18" cy="0" r="5" fill="#FEBC2E"/>
+    <circle cx="36" cy="0" r="5" fill="#28C840"/>
+    <text x="58" y="4" fill="#8B9BB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">prabhuatbhanzu</text>
+  </g>
+
+  <text x="40" y="100" fill="#1772EB" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3">BACKEND · PRODUCT · PRODUCTION</text>
+  <text x="40" y="160" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="720">Solve. Build. Ship.</text>
+  <text x="40" y="198" fill="#5B6B7F" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="17">Backend Developer · Full-Stack Builder · Product Engineer</text>
+
+  <!-- meta chips -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+    <rect x="40" y="232" width="118" height="34" rx="10" fill="#EEF3F9" stroke="#D5DEE9"/>
+    <text x="99" y="254" text-anchor="middle" fill="#0F172A">Bengaluru</text>
+    <rect x="168" y="232" width="92" height="34" rx="10" fill="#EEF3F9" stroke="#D5DEE9"/>
+    <text x="214" y="254" text-anchor="middle" fill="#0F172A">Bhanzu</text>
+    <rect x="270" y="232" width="128" height="34" rx="10" fill="#EEF3F9" stroke="#D5DEE9"/>
+    <text x="334" y="254" text-anchor="middle" fill="#1772EB">bhanzu.com</text>
+  </g>
+
+  <!-- pipeline -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+    <rect x="620" y="232" width="440" height="34" rx="10" fill="#EEF3F9" stroke="#D5DEE9"/>
+    <text x="640" y="254" fill="#8B9BB0">flow</text>
+    <text x="690" y="254" fill="#0F172A">IDEATE</text>
+    <text x="760" y="254" fill="#1772EB">→</text>
+    <text x="784" y="254" fill="#0F172A">BUILD</text>
+    <text x="848" y="254" fill="#1772EB">→</text>
+    <text x="872" y="254" fill="#0F172A">SHIP</text>
+    <text x="924" y="254" fill="#1772EB">→</text>
+    <text x="948" y="254" fill="#0B5ED7">SCALE</text>
+  </g>
+</svg>
