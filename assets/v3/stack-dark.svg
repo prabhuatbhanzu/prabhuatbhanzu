@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="550" viewBox="0 0 1800 550" role="img" aria-label="Stack" text-rendering="geometricPrecision">
+  <rect width="1800" height="550" rx="24" fill="#0E1520" stroke="#243041"/>
+  <text x="56" y="64" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Stack</text>
+  <rect x="56" y="82" width="72" height="4" rx="2" fill="#4DA3FF"/>
+<rect x="56" y="120" width="1688" height="64" rx="16" fill="#121A27" stroke="#243041"/>
+<text x="88" y="160" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">Backend</text>
+<text x="280" y="160" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Python · Flask · FastAPI · Node.js · Java</text>
+<rect x="56" y="198" width="1688" height="64" rx="16" fill="#121A27" stroke="#243041"/>
+<text x="88" y="238" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">Data</text>
+<text x="280" y="238" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">PostgreSQL · DynamoDB · Redis · S3</text>
+<rect x="56" y="276" width="1688" height="64" rx="16" fill="#121A27" stroke="#243041"/>
+<text x="88" y="316" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">Infra</text>
+<text x="280" y="316" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">AWS · Docker · Kubernetes · Argo CD · Terraform</text>
+<rect x="56" y="354" width="1688" height="64" rx="16" fill="#121A27" stroke="#243041"/>
+<text x="88" y="394" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">Frontend</text>
+<text x="280" y="394" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">TypeScript · React · Next.js</text>
+<rect x="56" y="432" width="1688" height="64" rx="16" fill="#121A27" stroke="#243041"/>
+<text x="88" y="472" fill="#4DA3FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">Ops</text>
+<text x="280" y="472" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Datadog · Sentry · GitHub Actions</text>
+</svg>

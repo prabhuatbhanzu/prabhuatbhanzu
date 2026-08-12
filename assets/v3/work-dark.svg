@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="436" viewBox="0 0 1800 436" role="img" aria-label="Work" text-rendering="geometricPrecision">
+  <rect width="1800" height="436" rx="24" fill="#0E1520" stroke="#243041"/>
+  <text x="56" y="64" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Work</text>
+  <rect x="56" y="82" width="72" height="4" rx="2" fill="#4DA3FF"/>
+<rect x="56" y="120" width="820" height="120" rx="18" fill="#121A27" stroke="#243041"/>
+<circle cx="96" cy="180" r="8" fill="#4DA3FF"/>
+<text x="126" y="172" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="650">Systems</text>
+<text x="126" y="206" fill="#93A1B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20">Service platforms & APIs with clear contracts</text>
+<rect x="904" y="120" width="820" height="120" rx="18" fill="#121A27" stroke="#243041"/>
+<circle cx="944" cy="180" r="8" fill="#4DA3FF"/>
+<text x="974" y="172" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="650">Cloud</text>
+<text x="974" y="206" fill="#93A1B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20">Event-driven AWS workloads that stay quiet</text>
+<rect x="56" y="268" width="820" height="120" rx="18" fill="#121A27" stroke="#243041"/>
+<circle cx="96" cy="328" r="8" fill="#4DA3FF"/>
+<text x="126" y="320" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="650">Product</text>
+<text x="126" y="354" fill="#93A1B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20">Next.js when ownership spans the stack</text>
+<rect x="904" y="268" width="820" height="120" rx="18" fill="#121A27" stroke="#243041"/>
+<circle cx="944" cy="328" r="8" fill="#4DA3FF"/>
+<text x="974" y="320" fill="#F2F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="650">Delivery</text>
+<text x="974" y="354" fill="#93A1B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20">GitOps, deploy paths, observability</text>
+</svg>
