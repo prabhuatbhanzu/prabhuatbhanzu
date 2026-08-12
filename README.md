@@ -56,14 +56,6 @@
   </picture>
 </div>
 
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v3/contributions-dark.svg" />
-    <img src="./assets/v3/contributions-light.svg" alt="GitHub contributions in the last year" width="100%" />
-  </picture>
-</div>
 
 <br/>
 
